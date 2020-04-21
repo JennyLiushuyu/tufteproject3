@@ -1,0 +1,20 @@
+	@media (max-width:961px) {
+		.article{
+			margin: 15% 0 25%;
+		}
+		.article>div{
+			display: block;
+			margin-top: 10%;
+		}
+		.article>div>div{
+			margin: 10% auto;
+			width: 95%;
+			height: 9.625rem;
+		}
+		.sort_label>div:nth-child(1)>span:nth-child(2){
+			background-color: #A96852;
+			color: white;
+			border: none;
+		}
+		
+	}

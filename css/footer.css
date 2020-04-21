@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+footer{
+	box-sizing: border-box;
+	width: 100%;
+	background: #282828;
+	position: relative;
+	z-index: 88;
+    color: white;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	padding: 1.5625rem;
+	line-height: 2.5625rem;
+	overflow: hidden;
+}
+.copy_info{
+	margin: 2rem 0 1.25rem;
+	padding: 0;
+}
+.copy_info>span{
+	display: block;
+	width: 29.375rem;
+	font-size: 0.875rem;
+}
+
+.copy_info>span:nth-child(1){
+	font-size: 2rem;
+	font-family: "Domaine";
+}
+
+.foot.nav_side{
+	display: block;
+	width: 35%;
+	/* float: right;
+	text-align: center; */
+}
+
+.foot.nav_side ul li{
+	width: 100%;
+}
+@media (max-width:961px) {
+	footer{
+		flex-direction: column;
+		line-height: 1.625rem;
+		padding-bottom: 0;
+	}
+	
+	footer>div{
+		margin: 0 auto;
+	}
+	.foot.nav_side{
+		width: 100%;
+	}
+	.copy_info{
+		line-height: 1.1rem;
+	}
+	.copy_info>span{
+		width: 95%;
+		display: inline-block;
+		font-size: 0.8em;
+	}
+}

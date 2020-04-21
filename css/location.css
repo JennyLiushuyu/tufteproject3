@@ -1,0 +1,8 @@
+.current_location>span:nth-child(2n+1){
+	color: #B44242;
+	text-decoration: underline;
+}
+.current_location>span>i,.current_location>span:nth-last-child(1){
+	text-decoration: none;
+	color: #A9A9A9;
+}
